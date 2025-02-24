@@ -1,7 +1,7 @@
 # TUGAS PEMROGRAMAN APLIKASI MOBILE LANJUT
 
 **Prewiew**
-![image alt]
+![image alt](https://github.com/nnauralabibah/Tugas1PAMLanjut_Naura/blob/master/Screenshot_20250224_231555.png)
 
 ## Indentitas Mahasiswa
 
