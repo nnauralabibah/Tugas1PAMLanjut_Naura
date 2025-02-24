@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Naura Labibah Rifda Hasan"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#B80000"
+        android:textStyle="bold"
+        android:layout_marginBottom="20px"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="225150407111034"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#B80000"
+        android:textStyle="bold"
+        android:layout_marginBottom="20px"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PERHITUNGAN VOLUME"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginBottom="20px"
+        />
+
+
+    <EditText
+        android:id="@+id/lengthEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Panjang"
+        android:layout_marginBottom="20px"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/widthEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Lebar"
+        android:layout_marginBottom="20px"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/heightEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Tinggi"
+        android:layout_marginBottom="50px"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="1000px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Hitung Volume"
+        android:backgroundTint="#2EC10E"
+        android:layout_marginBottom="50px"/>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volume"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingTop="16dp" />
+
+</LinearLayout>
